@@ -17,14 +17,6 @@ public class Print {
         System.out.printf("first=%s%n", first);
         System.out.printf("last=%s%n", last);
         System.out.printf("name=%s%n", name);
-        String word = "QuickRef";
-        char[] var10 = word.toCharArray();
-        int var11 = var10.length;
-
-        for (int var12 = 0; var12 < var11; ++var12) {
-            char c = var10[var12];
-            System.out.print("" + c + "-");
-        }
     }
 }
 
